@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.container2{
+    max-width: 1536;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+@media(max-width: 1536px) {
+    .container{
+        max-width: 1280px;
+    }
+
+}
+@media(max-width: 1280px) {
+    .container{
+        max-width: 1024px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .container{
+        max-width: 768px;
+    }
+}
+
+@media(max-width: 768px) {
+    .container{
+        max-width: 640px;
+    }
+}
+
+@media(max-width: 640px) {
+    .container{
+        max-width: 475px;
+    }
+}
+
+@media(max-width: 475px) {
+    .container{
+        max-width: 100px;
+    }
+}
+
+.jrh
+ {
+    padding: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #3b4069;
+    color: #ffffff;
+}
+
+.jrh
+ h1 {
+    display: inline-block;
+    font-size: 40px;
+}
+
+.jrh
+ nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.jrh
+ nav ul {
+    list-style-type: none;
+}
+
+.jrh
+ nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+
+.container{
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    row-gap: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+
+}
+.hero {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/Jose\ 2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* container 1 */
+
+.container1 {
+  display: grid;
+  column-gap: 20px;
+  row-gap:40px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: px 200px 200px 30px 200px; 
+}
+
+.AboutMe {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+    font-size: 50px;
+    color: #3b4069;
+    border-right-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding-right: 20px;
+}
+
+.AboutMetx {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
+
+.Work {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+    font-size: 50px;
+    color: #3b4069;
+    border-right-style: solid;
+    border-width: 2px;
+    border-color: black;;
+    padding-right: 20px;
+}
+
+#Worktx {
+    background-image: url(/assets/images/PreworkStudyGuide.jpeg);
+    display: inline-block;
+    width: 50%;
+    padding: 5px;
+    margin: 0;
+    width: 300px;
+    height: 180px;
+}
+
+#Worktx2 {
+    background-image: url(/assets/images/Horiseon.jpeg);
+    display: inline-block;
+    width: 50%;
+    padding: 5px;
+    margin: 0;
+    width: 300px;
+    height: 180px;
+}
+
+.Contact {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+    font-size: 50px;
+    color: #3b4069;
+    border-right-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding-right: 20px;
+}
+
+.Contacttx {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
+
+.Resume {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: right;
+    font-size: 50px;
+    color: #3b4069;
+    border-right-style: solid;
+    border-width: 2px;
+    border-color: black;
+    padding-right: 20px;
+}
+
+.Resumetx {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    padding-right: 20px;
+}
+.footer {
+    padding: 30px;
+}
+
